@@ -1,0 +1,11 @@
+JUEGO: Juego de Memoria 
+DESCRIPCION: Juego clasico de encontrar pares de cartas iguales. Un solo jugador.
+MECANICA: Tablero de cartas boca abajo. El jugador descubre dos cartas por turnos, si son iguales quedan descubiertas, si no, se voltean de nuevo. 
+El objetivo es encontrar todos los pares en la menor cantidad de intentos posible.
+CONTROLES: Mouse (clic en cartas), Tecla P (pausa), ESPACIO (iniciar/reiniciar), ESC (salir)
+PLATAFORMA: PC (Windows)
+
+# Dependencias
+pygame>=2.0.0
+pytest>=7.0.0
+behave>=1.2.0
